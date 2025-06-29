@@ -198,3 +198,12 @@ cython_debug/
 notes/
 *.pdf 
 *.csv
+*.txt
+*.zip
+*.tar 
+.myenv/
+/Big-Data-Course-main
+/gcli
+
+
+
