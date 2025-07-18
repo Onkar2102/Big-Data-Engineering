@@ -1,0 +1,8 @@
+env: local
+data_path: "credit_card_record/application_record.csv"
+credit_data_path: "credit_card_record/credit_record.csv"
+save_path: "output/local_ingested_data/"
+spark:
+  shuffle_partitions: 200
+  executor_memory: "4g"
+  executor_cores: 2

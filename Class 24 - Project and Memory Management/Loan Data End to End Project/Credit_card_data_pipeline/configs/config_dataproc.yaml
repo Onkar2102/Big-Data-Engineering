@@ -1,0 +1,9 @@
+env: dataproc
+gcs_bucket: "dataproc-staging-us-central1-458263062208-tw36mmqt"
+data_path: "gs://dataproc-staging-us-central1-458263062208-tw36mmqt/notebooks/jupyter/Data/application_record_cleaned.parquet"
+credit_data_path: "gs://dataproc-staging-us-central1-458263062208-tw36mmqt/notebooks/jupyter/Data/credit_record_cleaned.parquet"
+save_path: "gs://dataproc-staging-us-central1-458263062208-tw36mmqt/notebooks/jupyter/Data/ingested_data/"
+spark:
+  shuffle_partitions: 200
+  executor_memory: "4g"
+  executor_cores: 2

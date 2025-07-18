@@ -1,0 +1,16 @@
+env: dataproc
+gcs_bucket: 'dataproc-staging-us-central1-415554966392-gr7ktwvz'
+data_path: 'gs://dataproc-staging-us-central1-415554966392-gr7ktwvz/notebooks/jupyter/Project/Data/cleaned_data/application_record.csv'
+credit_data_path: 'gs://dataproc-staging-us-central1-415554966392-gr7ktwvz/notebooks/jupyter/Project/Data/cleaned_data/credit_record.csv'
+cleaned_data_path: 'gs://dataproc-staging-us-central1-415554966392-gr7ktwvz/notebooks/jupyter/Project/Data/cleaned_data'
+output_path: 'gs://dataproc-staging-us-central1-415554966392-gr7ktwvz/notebooks/jupyter/Project/output/'
+spark:
+  shuffle_partitions: 200
+  executor_memory: '4g'
+  executor_cores: 2
+mysql_config:
+  host: '34.135.174.117'
+  user: 'root'
+  password: 'THEONKAR'
+  database: 'loan_data'
+  table_name: 'credit_record'
