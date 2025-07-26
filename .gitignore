@@ -127,7 +127,7 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Environments
+# Environments - Virtual Environment Folders
 .env
 .venv
 env/
@@ -135,6 +135,13 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+myenv/
+myenv2/
+.venv/
+venv*/
+env*/
+*env/
+*venv/
 
 # Spyder project settings
 .spyderproject
@@ -193,18 +200,28 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-
+# System files
 *.DS_Store
-notes/
-*.pdf 
+
+# Data files and folders
 *.csv
 *.txt
 *.zip
-*.tar 
-.myenv/
+*.tar
+*.pdf
+data/
+*/data/
+**/data/
+data/*
+*/data/*
+**/data/*
+
+# Project specific ignores
+notes/
 /Big-Data-Course-main
 /gcli
-resources.txt
+resources.txt 
+
 
 
 
